@@ -1,14 +1,16 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: #412567;
+    /* background-color: #412567; */
 }
 nav{
-    
+    background-color: 
+#1A0B2E;
     padding: 16px 200px 16px 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .logo img{
     width: 319px;
@@ -40,25 +42,102 @@ nav .menu li a{
     border-radius: 100px;
     color: #ffffff;
     border-radius: 100px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));}
+
+#banner {
+    background-image: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    max-width: 1600px;
+    height: 730px;
+
+}
+.banner-img{
+    /* display: flex;
+    justify-content: center;
+     */
+}
+ .banner-img .banner-circle{
+    /* padding: 101px 625px 309px 625px; */
+    width: 350px;
+    /* box-sizing: border-box; */
+    position: relative;
+    left: 580px;
+    top: 100px;
+    display: flex;
+    justify-content: center;
+ }
+ .banner-mic{
+    position: relative;
+    z-index: 5;
+    left: -230px;
+    top: 90px;
+ }
+.new{
+    position: relative;
+    z-index: 10;
+    left: 130px;
+    top: -270px;
+
+}
+.banner-content{
+    padding: 170px 525px 170px 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24;
+
+}
+.banner-content h1{
+    color: #ffffff;
+    font-size: 80px;
+    text-align: center;
+}
+.banner-content p{
+    padding: 8px 88px;
+    color: #ffffff;
+    font-size: 15px;
+    font-style: Regular;
+    line-height: 19px;
+    white-space: nowrap;
+    text-align: center;
+}
+.banner-content .banner-button{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 8px;
+}
+.banner-button .button-1{
+    width: 201px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
     background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
 }
-/* @media (min-width:1024px){
-   .menu-icon{
-    display: none;
-   }
- } */
-
-#banner{
-    padding: 16px 200px 16px 200px;
-    background-image: url(../assets/hero-bg.png);
+.banner-button .button-2{
+    width: 147px;
+    height: 40px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #00ff88;
+    background-color: black;
+    border-radius: 100px;
+    border: solid #00ff88;
 }
 
- /* .circle{
-    width: 350px;
-    height: 350px;
-  
-    
- }
- .mic {
-    position: absolute;
- } */
+
+
+
+
+ 
