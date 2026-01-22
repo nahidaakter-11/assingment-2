@@ -191,6 +191,74 @@ nav .menu li a{
     text-transform: uppercase;
 
 }
+/* Why Choose Section */
+#choose{
+    background-color: #230E3D;
+    max-width: 1600px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+.choose-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-top: 120px;
+}
+.choose-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 32px;
+    margin-top: 40px;
+    color: #351165;
+    
+}
+.headphone{
+    grid-row: span 2;
+    padding: 110px 40px;
+    background-color: #2c0c56; 
+    border-radius: 40px;
+}
+.phone{
+    grid-column: span 2;
+    padding: 40px;
+    background-color: #2c0c56; 
+    border-radius: 40px
+}
+.globe{
+    grid-column: span 2;
+    padding: 40px;
+    background-color: #2c0c56; 
+    border-radius: 40px
+}
+.exclusive{
+    grid-column: span 2;
+    padding: 40px;
+    background-color: #2c0c56; 
+    border-radius: 40px
+}
+.resources{
+    padding: 40px;
+    background-color: #2c0c56; 
+    border-radius: 40px
+}
+.choose-container .title h2{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    text-align: center;
+
+}
+.choose-card h3 {
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.choose-card p{
+    color: #ffffff70;
+    font-size: 16px;
+}
 
 
 
