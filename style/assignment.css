@@ -96,7 +96,7 @@ nav .menu li a{
 }
 .banner-content p{
     padding: 8px 88px;
-    color: #ffffff;
+    color: #ffffff5f;
     font-size: 15px;
     font-style: Regular;
     line-height: 19px;
@@ -259,6 +259,78 @@ nav .menu li a{
     color: #ffffff70;
     font-size: 16px;
 }
+/* Featured Episode */
+#featured{
+    background-color: #1A0B2E;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.featured-container{
+    padding-top: 120px;
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+.featured-container .episode-title{
+    width: 1200px;
+    height: 59px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.featured-box{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin: 0 auto;
+   padding-bottom: 120px;  
+}
+.featured-card{
+    background-color: #260c48;
+    border-radius: 24px; 
+    overflow: hidden;
+    width: 380px;
+}
+.episode-card .title{
+    margin-top: 24px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    
+}
+.episode-card p{
+  margin-top: 12px;
+  color: #ffffff78;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+}
+.clock{
+    margin: 12px;
+    display: flex;
+    align-items: center;
+    color: #00ff88;
+    gap: 8px;
+    
+}
+.clock img{
+    width: 20px;
+    height: 20px;
+}
+.clock p{
+    margin: 0;
+    color: #00ff88;
+    font-size: 16px;
+    font-weight: 600;
+    width: 53px;
+    height: 24px;  
+}
+
 
 
 
