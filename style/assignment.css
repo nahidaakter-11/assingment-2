@@ -330,6 +330,68 @@ nav .menu li a{
     width: 53px;
     height: 24px;  
 }
+/* Host Section */
+#host{
+    background-color: #1A0B2E;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.host-container{
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+.title h3{
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 58px;
+    text-transform: capitalize;
+}
+.host-content{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 40px;
+    background-color: #260c48 ;
+    padding: 40px;
+    height: 300px;
+    border-radius: 40px;
+}
+.host-content .image{
+    width: 200px;
+    height: 200px;
+}
+.host-content h3{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 12px;
+}
+.host-content p{
+    color: #ffffff7b;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    text-transform: capitalize;
+}
+.host-icon{
+    margin-top: 16px;
+    display: flex;
+    justify-content:flex-start;
+    gap: 8px; 
+}
+.host-icon .icon{
+    border: solid #533c72;
+    border-radius: 100px;
+    padding: 8px 10px;
+}
+
+
 
 
 
