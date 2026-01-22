@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    /* background-color: #412567; */
+    box-sizing: border-box;
 }
 nav{
     background-color: 
@@ -62,7 +62,7 @@ nav .menu li a{
     width: 350px;
     /* box-sizing: border-box; */
     position: relative;
-    left: 580px;
+    left: 680px;
     top: 100px;
     display: flex;
     justify-content: center;
@@ -135,6 +135,64 @@ nav .menu li a{
     border-radius: 100px;
     border: solid #00ff88;
 }
+/* About section */
+#about{
+    background-color:  #1A0B2E;
+    padding: 50px 200px 120px 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+}
+.about-container h2{
+   max-width: 1200px;
+   /* height: 39px; */
+   color: #ffffff;
+   font-size: 48px;
+   line-height: 58px;
+   text-align: center;
+   text-transform: capitalize;
+   margin-bottom: 60px;
+}
+.about-container p{
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+.rating-item{
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #1A0B2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;  
+}
+.rating-item .item{
+    text-align: center; 
+    margin-top: 80px;  
+    
+}
+.rating-item .item h3{
+    color: #0bd074;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 58px;
+    text-align: center;
+}
+.rating-item .item p{
+    color: #ffffff;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+
 
 
 
