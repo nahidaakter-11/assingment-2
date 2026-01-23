@@ -19,6 +19,10 @@
         width: 135px;
 
     }
+   .menu-icon{
+    display: block;
+   }
+    
 /* Banner section */
 #banner{
     background-image: url(../assets/Header-bg.png);
@@ -27,6 +31,7 @@
     background-repeat: no-repeat;
     width: 100%;
     min-height: 430px;
+    /* padding: 40px ; */
 }
 .circle-image{
     width: 200px;
@@ -129,24 +134,46 @@
 .host-content .image{
     width: 150px;
 }
-#footer{
+ #footer{
     background-image: url(../assets/foot.png);
     background-size: cover;
-    height: 250px; 
-}
-.footer-image{
-    width: 219px;
-    margin-bottom: 20px;
-}
-.footer-icon{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    font-size: 16px;
-    gap: 12px;
-    margin-top: 10px;
+    height: 248px; 
 }
 
+  #footer .title-section {
+    padding-top: 30px;
+    font-size: 36px;
+  }
+
+  .footer-icon {
+    max-width: 544px;
+    margin: 24px 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+    
+  .footer-description {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+  }
+  .icon {
+    font-size: 14px;
+  }
+
+  .icon img {
+    width: 18px;
+    height: 18px;
+  }
+
+
+  .copy-right {
+    margin-top: 20px ;
+    font-size: 13px;
+  }
 }
+
  
  
 
