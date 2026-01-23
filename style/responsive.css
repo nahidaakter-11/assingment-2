@@ -1,0 +1,152 @@
+ 
+
+ @media  screen and (max-width: 576px) {
+ 
+    nav{
+        padding: 15px;
+        width: 100%;
+    }
+
+    .menu{
+        display: none;
+    }
+
+    .btn{
+        display: none;
+    }
+
+    .logo img{
+        width: 135px;
+
+    }
+/* Banner section */
+#banner{
+    background-image: url(../assets/Header-bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 430px;
+}
+.circle-image{
+    width: 200px;
+}
+.mic-image{
+    width: 80px;
+}
+.banner-image-parent{
+    margin-top: 230px;
+}
+.new{
+    padding: 6px 10px ;
+    font-size: 16px;
+    left: 43px;
+    top: -89px;
+}
+
+    
+/* About section */
+#about{
+    padding: 15px 20px;
+    text-align: center;
+}
+.rating-item{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0 20px 40px;
+    font-size: 40px;
+
+}
+.about-container h2{
+    font-size: 32px;
+    font: 700;
+    margin-bottom: 10px;
+}
+.choose-container .title h2{
+    font-size: 32px;
+
+ }
+ .choose-card{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    padding: 20px;
+    margin: 0 auto;
+    justify-items: center;
+
+ }
+ .featured-container{
+    padding-top: 40px;
+ }
+.featured-container .episode-title{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+ .featured-box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    padding: 20px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 15px;
+ }
+ .featured-card{
+    margin: 0 auto;
+    align-items: center;
+
+ }
+ .host-container{
+    padding: 20px 40px;
+ 
+}
+.host-content{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    gap: 0px;
+    margin-top: 24px;
+    padding: 24px;
+    height: 500px;
+    border-radius: 24px;
+    text-align: center;
+}
+.host-content-text h3{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+.host-content-text p{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+.host-icon{
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.host-content .image{
+    width: 150px;
+}
+#footer{
+    background-image: url(../assets/foot.png);
+    background-size: cover;
+    height: 250px; 
+}
+.footer-image{
+    width: 219px;
+    margin-bottom: 20px;
+}
+.footer-icon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    font-size: 16px;
+    gap: 12px;
+    margin-top: 10px;
+}
+
+}
+ 
+ 
+
